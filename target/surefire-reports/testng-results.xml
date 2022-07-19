@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="115778" started-at="2022-07-13T12:31:06 IST" finished-at="2022-07-13T12:33:02 IST">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="81757" started-at="2022-07-13T12:31:06 IST" finished-at="2022-07-13T12:32:28 IST">
+      <class name="Academy.TestAutomation.HomePageTest">
+        <test-method status="PASS" signature="navigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.TestAutomation.HomePageTest@7e0b85f9]" name="navigation" duration-ms="81669" started-at="2022-07-13T12:31:06 IST" data-provider="dataProvider" finished-at="2022-07-13T12:32:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+      </class> <!-- Academy.TestAutomation.HomePageTest -->
+    </test> <!-- HomePageTest -->
+    <test name="ForgotPasswordTest" duration-ms="33737" started-at="2022-07-13T12:32:28 IST" finished-at="2022-07-13T12:33:02 IST">
+      <class name="Academy.TestAutomation.ForgotPasswordTest">
+        <test-method status="PASS" signature="navigation()[pri:0, instance:Academy.TestAutomation.ForgotPasswordTest@72057ecf]" name="navigation" duration-ms="33736" started-at="2022-07-13T12:32:28 IST" finished-at="2022-07-13T12:33:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+      </class> <!-- Academy.TestAutomation.ForgotPasswordTest -->
+    </test> <!-- ForgotPasswordTest -->
+  </suite> <!-- Suite -->
+</testng-results>
